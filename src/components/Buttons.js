@@ -3,7 +3,7 @@ import Button from './Button';
 
 const Buttons = props => {
   return (
-    <div>
+    <div className="ui three buttons">
       <Button name="Description" />
       <Button name="Review" />
       <Button name="System Requirements" />
